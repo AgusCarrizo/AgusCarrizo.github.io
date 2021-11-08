@@ -1,0 +1,95 @@
+nav ul li {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 25%;
+    font-size: small;
+}
+
+
+/* SECTION MAIN IMAGE */
+
+#section-main-image h1 {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+    font-size: 38px;
+}
+
+#section-main-image h3 {
+    color: #ffffff;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 14px;
+}
+
+
+/* SECTION COFFEE */
+
+#section-coffee {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#section-coffee h2 {
+    margin: 40px 0 20px 0;
+}
+
+#section-coffee p {
+    text-align: start;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+}
+
+.product {
+    padding: 0 15px;
+}
+
+.product img {
+    margin: 10px auto;
+    display: block;
+    width: 124%;
+}
+
+
+/* FOOTER CONTACT */
+
+#footer-contact {
+    background-color: #58462c;
+    color: #eeeeee;
+    display: grid;
+    justify-content: center;
+}
+
+#footer-contact h2 {
+    font-size: 25px;
+    display: grid;
+}
+
+#footer-contact .contact-data {
+    display: grid;
+    justify-content: space-between;
+}
+
+#footer-contact .contact-info.contact-form form {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.contact-form form .form-control {
+    padding: 10px 0;
+}
+
+.contact-form form .form-control label {
+    margin-right: 15px;
+}
+
+.contact-form form button {
+    margin-top: 14px;
+    color: #58462c;
+    padding: 3px 30px;
+}
